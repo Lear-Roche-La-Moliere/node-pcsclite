@@ -1,6 +1,6 @@
 {
-  "name": "@pokusew/pcsclite",
-  "version": "0.6.0",
+  "name": "pcsclite",
+  "version": "0.6.1",
   "description": "Bindings over PC/SC to access Smart Cards",
   "keywords": [
     "nfc",
@@ -8,13 +8,13 @@
     "pcsclite",
     "smartcards"
   ],
-  "homepage": "https://github.com/pokusew/node-pcsclite#readme",
+  "homepage": "https://gitlab.com/lear-npm/pcsclite#node-pcsclite",
   "bugs": {
-    "url": "https://github.com/pokusew/node-pcsclite/issues"
+    "url": "https://gitlab.com/lear-npm/pcsclite/-/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pokusew/node-pcsclite.git"
+    "url": "https://gitlab.com/lear-npm/pcsclite.git"
   },
   "license": "ISC",
   "author": {
@@ -26,6 +26,10 @@
     {
       "name": "Martin Endler",
       "url": "https://github.com/pokusew"
+    },
+    {
+      "name": "Anthony Bosco",
+      "url": "https://github.com/AnthoDingo"
     }
   ],
   "main": "lib/pcsclite.js",
@@ -34,7 +38,7 @@
     "test": "test"
   },
   "scripts": {
-    "install": "node-gyp rebuild",
+    "install": "",
     "test": "mocha --exit"
   },
   "dependencies": {
